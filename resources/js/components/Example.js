@@ -21,13 +21,13 @@ export default function Example() {
 
                         <div className="card-body">
                             <div className="form-group">
-                              <label>Pais</label>
-                              <ComboPais handlePaisChange={handlePaisChange}/>
+                                <label>Pais</label>
+                                <ComboPais handlePaisChange={handlePaisChange} />
                             </div>
 
                             <div className="form-group">
-                              <label>Departamento</label>
-                              <ComboDepartamento paisId={paisId}  />
+                                <label>Departamento</label>
+                                <ComboDepartamento paisId={paisId} />
                             </div>
                         </div>
                     </div>
